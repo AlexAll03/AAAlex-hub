@@ -78,7 +78,7 @@ local R20regular = sb:CreateButton({
    Callback = function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/cheesynob39/R2O/main/LOADSTRING.lua"))()
 wait (0.1)
-loadstring(game:HttpGet("https://github.com/AlexAll03/AAAlex-hub/blob/main/Main-script", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexAll03/AAAlex-hub/main/Main-script?token=GHSAT0AAAAAACEQQZQQTZA2NBHFZ2J5I2YSZE6XINQ", true))()
    end,
 })
 
@@ -87,7 +87,7 @@ local CUH = sb:CreateButton({
    Callback = function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomScriptr3/gggggggg/main/lolez.txt", true))()
 wait (0.1)
-loadstring(game:HttpGet("https://github.com/AlexAll03/AAAlex-hub/blob/main/Main-script", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexAll03/AAAlex-hub/main/Main-script?token=GHSAT0AAAAAACEQQZQQTZA2NBHFZ2J5I2YSZE6XINQ", true))()
    end,
 })
 
@@ -96,7 +96,7 @@ local DizzyHub1 = sb:CreateButton({
    Callback = function()
       loadstring(game:HttpGet(("https://raw.githubusercontent.com/dizyhvh/rbx_scripts/main/dizzy_hub/loader.lua")))()
 wait (0.1)
-loadstring(game:HttpGet("https://github.com/AlexAll03/AAAlex-hub/blob/main/Main-script", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexAll03/AAAlex-hub/main/Main-script?token=GHSAT0AAAAAACEQQZQQTZA2NBHFZ2J5I2YSZE6XINQ", true))()
    end,
 })
 
@@ -109,7 +109,7 @@ local R20SR = sb:CreateButton({
    Callback = function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/R20%20Slap%20Royale"))()
 wait (0.1)
-loadstring(game:HttpGet("https://github.com/AlexAll03/AAAlex-hub/blob/main/Main-script", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexAll03/AAAlex-hub/main/Main-script?token=GHSAT0AAAAAACEQQZQQTZA2NBHFZ2J5I2YSZE6XINQ", true))()
    end,
 })
 --killstreak edition----------------------------------
