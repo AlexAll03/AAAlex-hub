@@ -77,13 +77,17 @@ local R20regular = sb:CreateButton({
    Name = "R20 (if u klik we reload script hub)",
    Callback = function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/cheesynob39/R2O/main/LOADSTRING.lua"))()
+wait (0.1)
+loadstring(game:HttpGet("https://github.com/AlexAll03/AAAlex-hub/blob/main/Main-script", true))()
    end,
 })
 
 local CUH = sb:CreateButton({
-   Name = "CherryUi's Hub",
+   Name = "CherryUi's Hub (if u klik we reload script hub)",
    Callback = function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomScriptr3/gggggggg/main/lolez.txt", true))()
+wait (0.1)
+loadstring(game:HttpGet("https://github.com/AlexAll03/AAAlex-hub/blob/main/Main-script", true))()
    end,
 })
 
@@ -91,6 +95,8 @@ local DizzyHub1 = sb:CreateButton({
    Name = "Dizzy Hub (if u klik we reload script hub)",
    Callback = function()
       loadstring(game:HttpGet(("https://raw.githubusercontent.com/dizyhvh/rbx_scripts/main/dizzy_hub/loader.lua")))()
+wait (0.1)
+loadstring(game:HttpGet("https://github.com/AlexAll03/AAAlex-hub/blob/main/Main-script", true))()
    end,
 })
 
@@ -99,9 +105,11 @@ local DizzyHub1 = sb:CreateButton({
 local SRGSBsection1 = sb:CreateSection("---Slap royal gamemode---")
 
 local R20SR = sb:CreateButton({
-   Name = "R20 Slap royale (if u klik we reload script hub)",
+   Name = "R20 Slap royale  ",
    Callback = function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/R20%20Slap%20Royale"))()
+wait (0.1)
+loadstring(game:HttpGet("https://github.com/AlexAll03/AAAlex-hub/blob/main/Main-script", true))()
    end,
 })
 --killstreak edition----------------------------------
