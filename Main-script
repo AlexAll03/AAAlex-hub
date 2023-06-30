@@ -78,7 +78,7 @@ local R20regular = sb:CreateButton({
    Callback = function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/cheesynob39/R2O/main/LOADSTRING.lua"))()
 wait (0.1)
-loadstring(game:HttpGet(https://raw.githubusercontent.com/AlexAll03/AAAlex-hub/main/Main-script"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexAll03/AAAlex-hub/main/Main-script"))()
    end,
 })
 
