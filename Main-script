@@ -1,0 +1,164 @@
+--idk what type
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- loading
+
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+  Name = "AAAlex hub with scripts",
+  LoadingTitle = "Hi! Hub loading...",
+  LoadingSubtitle = "by Ale89464",
+  ConfigurationSaving = {
+     Enabled = true,
+     FolderName = nil, -- Create a custom folder for your hub/game
+     FileName = "Big Hub"
+  }, 
+KeySystem = true, -- Set this to true to use our key system
+KeySettings = {
+   Title = "Stop!",
+   Subtitle = "This script is private!",
+   Note = "You can get it from owner, discord: question03",
+   FileName = "Fluхus.dll " , -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+   SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+   GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+   Key = {""} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+}
+})
+
+Rayfield:Notify({
+   Title = "Loaded!",
+   Content = "idk what type",
+   Duration = 6.5,
+   Image = 4483362458
+})
+
+-- tabs
+
+local sb = Window:CreateTab("Slap Battles!")
+
+local Bedwars = Window:CreateTab("Bedwars!")
+
+local universalscripts = Window:CreateTab("Universal Scripts")
+
+
+--Slap Battles------------------------------------------------------------------------------------
+
+local welcomesb = sb:CreateLabel("There are some scripts for slap battles and all gamemodes!")
+
+--Slap Battles regular------------------------------
+
+--buttons--
+local RSBsection1 = sb:CreateSection("---Regular Slap Battles---")
+local HTE = sb:CreateButton({
+   Name = "Hub that exist",
+   Callback = function()
+      loadstring(game:HttpGet(("https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Slap%20Battles")))()
+   end,
+})
+
+local R20regular = sb:CreateButton({
+   Name = "R20 (if u klik we reload script hub)",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/cheesynob39/R2O/main/LOADSTRING.lua"))()
+   end,
+})
+
+local CUH = sb:CreateButton({
+   Name = "CherryUi's Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomScriptr3/gggggggg/main/lolez.txt", true))()
+   end,
+})
+
+local DizzyHub1 = sb:CreateButton({
+   Name = "Dizzy Hub (if u klik we reload script hub)",
+   Callback = function()
+      loadstring(game:HttpGet(("https://raw.githubusercontent.com/dizyhvh/rbx_scripts/main/dizzy_hub/loader.lua")))()
+   end,
+})
+
+
+--slap battles royal gamemode----------------------------------
+local SRGSBsection1 = sb:CreateSection("---Slap royal gamemode---")
+
+local R20SR = sb:CreateButton({
+   Name = "R20 Slap royale (if u klik we reload script hub)",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/R20%20Slap%20Royale"))()
+   end,
+})
+--killstreak edition----------------------------------
+local KESBsection1 = sb:CreateSection("---Killstreak edition---")
+
+local noscriptsks = sb:CreateLabel("There isn't scripts for KSE but u can use scripts from LSB")
+--no os gamemode----------------------------------
+local NOSBsection1 = sb:CreateSection("---No oneshot gloves---")
+
+local noscriptsnoos = sb:CreateLabel("There isn't scripts for NOneS but u can use scripts from LSB")
+--Bedwars------------------------------------------------------------------------------------
+
+local welcomeBedwars = Bedwars:CreateLabel("There is only one script but its very good!")
+
+local Vapev4bedwrs = Bedwars:CreateButton({
+   Name = "Vape V4",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+   end,
+})
+
+--universal scripts-------------------------------------------------------------------------------
+
+local welcomeUnevScripts = universalscripts:CreateLabel("There are scripts that you can use in any place!")
+
+local somefings = universalscripts:CreateSection("---some things---")
+
+local SpeedSlider1 = universalscripts:CreateSlider({
+   Name = "WalkSpeed",
+   Range = {0, 300},
+   Increment = 0.1,
+   Suffix = " ",
+   CurrentValue = 16,
+   Flag = "UnevscriptsSpeedsliderA", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(SpeedValue1)
+      game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (SpeedValue1)
+   end,
+})
+
+local JumpSlider1 = universalscripts:CreateSlider({
+   Name = "JumpPower",
+   Range = {0, 300},
+   Increment = 0.1,
+   Suffix = " ",
+   CurrentValue = 50,
+   Flag = "UnevscriptsSpeedsliderA", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(JumpValue1)
+      game.Players.LocalPlayer.Character.Humanoid.JumpPower = (JumpValue1)
+   end,
+})
+
+local Hubsscriptsunev1 = universalscripts:CreateSection("---Hubs/scripts---")
+
+local infyeld = universalscripts:CreateButton({
+   Name = "Infinite Yield",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source", true))()
+
+   end,
+})
